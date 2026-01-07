@@ -1,145 +1,218 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Geetha Priya - Front-End Developer Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dandu Madhukar Reddy - CRO Analyst Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Geetha Priya</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <div class="download-section">
+        <h1>📄 Two-Column Professional Resume</h1>
+        <div class="subtitle">Optimized for ATS + Human Recruiters</div>
+        <p>
+            Modern two-column layout with <strong>70% content space</strong> for experience & projects,<br>
+            and <strong>30% sidebar</strong> for contact, skills, and tools — exactly what recruiters expect.
+        </p>
+        <button class="download-btn" onclick="downloadResume()">
+            <span>⬇️</span>
+            <span>Download Word Document</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#hero">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-          </ul>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">✅</div>
+                <div class="feature-title">ATS-Friendly</div>
+                <div class="feature-desc">Clean structure passes all applicant tracking systems</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✏️</div>
+                <div class="feature-title">Fully Editable</div>
+                <div class="feature-desc">Open in Word/Google Docs and customize everything</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎨</div>
+                <div class="feature-title">Professional Design</div>
+                <div class="feature-desc">Modern layout that stands out in recruiter inbox</div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📊</div>
+                <div class="feature-title">Optimized Layout</div>
+                <div class="feature-desc">70-30 split maximizes space efficiency</div>
+            </div>
         </div>
-      </div>
-    </nav>
-  </header>
-
-  <section id="hero" class="hero d-flex align-items-center">
-    <div class="container text-center">
-      <h1 class="display-4 text-white">Geetha Priya</h1>
-      <p class="lead text-white">Front-End Developer | Ananthapuram, Andhra Pradesh</p>
-      <p class="text-white">Email: geethapriyareddy@gmail.com | Tel: +91 9392491921</p>
     </div>
-  </section>
 
-  <div class="container mt-5">
-    <section id="about" class="mb-5">
-      <h2>About Me</h2>
-      <p>As a fresh graduate in Computer Science and Engineering, I am eager to embark on my professional journey as a Front-End Developer. My passion for coding and creating visually appealing user interfaces has driven me to acquire a solid foundation in web development technologies. During my academic years, I honed my skills in HTML, CSS, JavaScript, and various front-end frameworks, enabling me to craft responsive and engaging websites.</p>
-    </section>
+    <div class="preview-container">
+        <div id="resumeContent">
+            <div class="resume-wrapper">
+                <div class="header-full">
+                    <h1>DANDU MADHUKAR REDDY</h1>
+                    <div class="tagline">CRO Analyst | Experimentation & User Analytics</div>
+                </div>
 
-    <section id="skills" class="mb-5">
-      <h2>Technical Skills</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <h4>Programming Languages</h4>
-          <ul class="skill-list">
-            <li><i class="fab fa-html5 fa-2x"></i> HTML</li>
-            <li><i class="fab fa-css3-alt fa-2x"></i> CSS</li>
-            <li><i class="fab fa-js-square fa-2x"></i> JavaScript</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Frameworks & Libraries</h4>
-          <ul class="skill-list">
-            <li><i class="fab fa-react fa-2x"></i> React.js</li>
-            <li><i class="fab fa-angular fa-2x"></i> Angular</li>
-            <li><i class="fab fa-bootstrap fa-2x"></i> Bootstrap</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h4>Other Tools</h4>
-          <ul class="skill-list">
-            <li><i class="fab fa-git-alt fa-2x"></i> Git</li>
-            <li><i class="fab fa-figma fa-2x"></i> Figma</li>
-            <li><i class="fab fa-wordpress fa-2x"></i> WordPress</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+                <!-- LEFT COLUMN (70%) -->
+                <div class="left-column">
+                    <div class="section">
+                        <div class="section-title">Professional Summary</div>
+                        <div class="summary">
+                            CRO Analyst with hands-on experience in experimentation and conversion optimization for BFSI acquisition funnels at iQuanti. Contributed to <strong>10+ A/B tests</strong> from hypothesis development through execution and analysis. Skilled at identifying user friction through behavioral data (GA4, Adobe Analytics, Hotjar) and translating insights into test-ready hypotheses. Strong analytical background with data analytics and frontend development skills supporting technical CRO implementation and custom tooling.
+                        </div>
+                    </div>
 
-    <section id="projects" class="mb-5">
-      <h2>Sample Projects</h2>
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="./OIP (1).jpeg" class="card-img-top" alt="Project 1">
-            <div class="card-body">
-              <h5 class="card-title">Project 1</h5>
-              <p class="card-text">A responsive landing page for a local business.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="./OIP (2).jpeg" class="card-img-top" alt="Project 2">
-            <div class="card-body">
-              <h5 class="card-title">Project 2</h5>
-              <p class="card-text">A single-page application for a todo list built with React.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="./OIP (3).jpeg" the card-img-top" alt="Project 3">
-            <div class="card-body">
-              <h5 class="card-title">Project 3</h5>
-              <p class="card-text">A responsive web application for an e-commerce store.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="./OIP.jpeg" class="card-img-top" alt="Project 4">
-            <div class="card-body">
-              <h5 class="card-title">Project 4</h5>
-              <p class="card-text">An interactive quiz app built using Angular.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+                    <div class="section">
+                        <div class="section-title">Work Experience</div>
+                        
+                        <div class="job-header">
+                            <div class="job-title">CRO Analyst</div>
+                            <div class="job-company">iQuanti</div>
+                            <div class="job-date">Feb 2025 – Present</div>
+                            <div class="job-detail">BFSI Clients – Business Loans & Credit Card Acquisition</div>
+                        </div>
 
-  <footer class="text-center mt-auto py-3 bg-dark">
-    <div class="container">
-      <ul>
-        <li><a href="#">Privacy</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Support</a></li>
-      </ul>
+                        <ul class="bullet-list">
+                            <li>Generate experiment ideas by analyzing <strong>GA4 funnel reports, Adobe Analytics segmentation, and Hotjar session recordings</strong> to identify drop-off points and user friction in lead-generation flows</li>
+                            <li>Prioritize hypotheses using <strong>PIE framework</strong> (Potential, Importance, Ease) and collaborate with senior CRO team to build quarterly experimentation roadmaps</li>
+                            <li>Execute and monitor <strong>8+ live A/B tests on VWO</strong>, conducting daily QA checks and performance tracking to ensure test integrity and valid results</li>
+                            <li>Diagnose test underperformance mid-flight by cross-analyzing behavioral data, traffic patterns, and conversion metrics to identify anomalies or segment-specific issues</li>
+                            <li>Deliver <strong>bi-weekly experiment status reports</strong> to clients, presenting test performance, interim insights, and strategic recommendations in stakeholder-friendly presentations</li>
+                            <li>Document inconclusive test learnings and behavioral observations to inform iteration strategies and strengthen future hypotheses</li>
+                        </ul>
+
+                        <div class="key-highlight">
+                            <strong>Key Contribution:</strong> Identified critical form abandonment pattern through heatmap analysis, informing hypothesis that improved variation performance by 18% in follow-up test
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-title">Projects</div>
+                        
+                        <div class="project">
+                            <div class="project-title">Experimentation Knowledge Base</div>
+                            <div class="project-subtitle">Platform for centralized test documentation and learning retention</div>
+                            <ul class="bullet-list">
+                                <li>Building internal tool to manage experiment lifecycle: hypothesis library, prioritization scores, test configurations, performance tracking, and post-test learnings</li>
+                                <li>Designed database schema to enable filtering by test status, hypothesis category, winning patterns, and business impact</li>
+                                <li>Goal: Create institutional memory for experimentation program to accelerate future ideation and prevent repeated mistakes</li>
+                            </ul>
+                        </div>
+
+                        <div class="project">
+                            <div class="project-title">Statistical Significance Calculator</div>
+                            <div class="project-subtitle">Web-based tool for experiment planning and sample size estimation</div>
+                            <ul class="bullet-list">
+                                <li>Developed calculator to estimate required sample size and test duration based on baseline conversion rate, MDE (Minimum Detectable Effect), and traffic volume</li>
+                                <li>Used by team during test planning to set realistic timelines and manage stakeholder expectations</li>
+                                <li>Built with interactive UI allowing real-time adjustment of statistical parameters (confidence level, power, traffic allocation)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-title">Education</div>
+                        <div class="education-item">
+                            <div class="degree">Bachelor of Technology (B.Tech)</div>
+                            <div class="degree" style="font-weight: 600; font-size: 10pt;">Computer Science & Engineering</div>
+                            <div class="edu-detail"><em>Specialization: Machine Learning & AI</em></div>
+                            <div class="edu-detail">Lovely Professional University, Punjab</div>
+                            <div class="edu-detail">2020 – 2024</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT COLUMN (30%) -->
+                <div class="right-column">
+                    <div class="section">
+                        <div class="section-title">Contact</div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">Puttaparthi, Andhra Pradesh, India</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-text">tomadhukarreddy@gmail.com</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">+91 7670998873</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🔗</div>
+                            <div class="contact-text">LinkedIn | GitHub | Portfolio</div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-title">Core CRO Skills</div>
+                        
+                        <div class="skill-group">
+                            <div class="skill-group-title">
+                                <span class="skill-icon">🧪</span>
+                                Experimentation
+                            </div>
+                            <div class="skill-items">A/B Testing • Hypothesis Development • PIE Prioritization • Test Execution & QA • Roadmap Planning • MVT Concepts</div>
+                        </div>
+
+                        <div class="skill-group">
+                            <div class="skill-group-title">
+                                <span class="skill-icon">📊</span>
+                                Analytics
+                            </div>
+                            <div class="skill-items">Funnel Analysis • User Segmentation • Drop-off Diagnosis • Session Recording • Heatmap Analysis • KPI Definition</div>
+                        </div>
+
+                        <div class="skill-group">
+                            <div class="skill-group-title">
+                                <span class="skill-icon">🎯</span>
+                                UX Research
+                            </div>
+                            <div class="skill-items">User Friction ID • Behavioral Patterns • Competitive Analysis • Best Practices • Journey Mapping</div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-title">Tools & Platforms</div>
+                        
+                        <div class="skill-group">
+                            <div class="skill-group-title">
+                                <span class="skill-icon">🛠️</span>
+                                CRO Tools
+                            </div>
+                            <div class="skill-items">VWO • Google Analytics 4 • Adobe Analytics • Hotjar • Google Tag Manager</div>
+                        </div>
+
+                        <div class="skill-group">
+                            <div class="skill-group-title">
+                                <span class="skill-icon">📈</span>
+                                Analysis
+                            </div>
+                            <div class="skill-items">Excel/Sheets (Pivot Tables, VLOOKUP) • PowerPoint • Data Visualization</div>
+                        </div>
+
+                        <div class="skill-group">
+                            <div class="skill-group-title">
+                                <span class="skill-icon">💻</span>
+                                Technical
+                            </div>
+                            <div class="skill-items">SQL • Python (Pandas) • HTML/CSS/JavaScript • Git</div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <div class="section-title">Key Strengths</div>
+                        <ul class="additional-list">
+                            <li>Translating BFSI funnels to e-commerce contexts</li>
+                            <li>Analytical storytelling for stakeholders</li>
+                            <li>Technical CRO implementation support</li>
+                            <li>UX psychology & behavior analysis</li>
+                            <li>Evidence-based optimization mindset</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
